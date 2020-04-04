@@ -1,0 +1,34 @@
+disabled_rules:
+  - force_cast
+
+included:
+  - SingSong
+
+excluded:
+  - SingSong/Resources/R.generated.swift
+  
+line_length: 500
+large_tuple: 5
+
+file_length:
+  warning: 500
+  error: 1200
+
+nesting:
+  type_level:
+    warning: 2
+
+identifier_name:
+    max_length:
+      warning: 45
+      error: 60
+    min_length:
+      warning: 2
+      error: 1
+    excluded:
+      - id
+      - URL
+    
+cyclomatic_complexity: 20
+
+    
