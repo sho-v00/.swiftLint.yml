@@ -2,11 +2,17 @@ disabled_rules:
   - force_cast
 
 included:
-  - SingSong
+  # Target name that you want to include
+  - TARGET_NAME
 
 excluded:
-  - SingSong/Resources/R.generated.swift
+  # If you use R.swift, required excluding R.generated.swift file.
+  # Descript the path.
+  - PROJECT_NAME/R.generated.swift
   
+  
+# Rules
+
 line_length: 500
 large_tuple: 5
 
